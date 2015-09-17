@@ -7,6 +7,8 @@ The output is a list of servers with the silo/tag that is deployed to the instan
 
 ## Dependencies
 
+You need at least Python `3.3` to run this script.
+
 ```
 python3-docopt
 python3-requests
