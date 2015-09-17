@@ -5,6 +5,14 @@ By default, JBoss has a very nice 'welcome.war' that shows which application is 
 This tool enumerates all instances in a cluster environment given a server name pattern and a starting port. 
 The output is a list of servers with the silo/tag that is deployed to the instance.
 
+## Dependencies
+
+```
+python3-docopt
+python3-requests
+python3-lxml
+```
+
 ## Usage
 Before running, change at least the server name pattern (line 19 in the docstring) or supply it using `--server-format`.
 
